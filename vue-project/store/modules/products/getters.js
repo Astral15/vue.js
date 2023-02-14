@@ -5,9 +5,6 @@ const getters = {
     getCartObject(state){
         return state.cart
     },
-    getactiveProduct(state) {
-        return state.activeProduct
-    }
 }
 
 export default getters

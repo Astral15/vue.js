@@ -3,7 +3,7 @@
 const menu = [
   { routeName: 'Home', title: 'Main Page' },
   { routeName: 'About', title: 'About Us' },
-  { routeName: 'Contact', title: 'Contac Us' },
+  { routeName: 'Contact', title: 'Nbg' },
   { routeName: 'Products', title: 'Products' },
   { routeName: 'Cart', title: 'Cart' },
 

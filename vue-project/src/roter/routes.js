@@ -4,6 +4,7 @@ import Contact from '../views/Contact.vue'
 import Cart from '../views/Cart.vue'
 import Products from '../views/Products.vue'
 import displayProduct from '../components/displayProduct.vue'
+import NbgComponent from '../views/NbgComponent.vue'
 
 
 const routes = [
@@ -36,7 +37,12 @@ const routes = [
         path: '/product/:id',
         name: "Product",
         component: displayProduct
-    }
+    },
+    {
+        path: '/nbg',
+        name: "Nbg",
+        component: () => ('...NbgComponent')
+    },
 ]
 
 export default routes

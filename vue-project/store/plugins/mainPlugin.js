@@ -4,9 +4,7 @@ import productsModule from "../modules/products"
 export default function mainPlugin(store){
     
     store.subscribe((mutation, state) => {
-
         //console.log(mutation, state)
-    
     })
 
     store.subscribeAction({

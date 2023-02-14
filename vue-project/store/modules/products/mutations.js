@@ -16,9 +16,6 @@ const mutations = {
         /** დავამატოთ პროდუქტებში */
         state.products.data.push(product)
     },
-    GET_PRODUCT_BY_ID(state, payload) {
-        state.activeProduct =  state.products.data.find(item => item.id === +payload )
-    }  
 }
 
 export default mutations
