@@ -21,7 +21,7 @@ const productsModule = {
                 name: "კალათა",
                 action: false,
                 data: []
-            }
+            },
         }
     },
     getters,
